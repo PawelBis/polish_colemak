@@ -772,21 +772,21 @@ xkb_symbols "colemak" {
     key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
 
-    key <AC01> { [            a,            A,          aacute,           Aacute ] };
+    key <AC01> { [            a,            A,         aogonek,          Aogonek ] };
     key <AC02> { [            r,            R,      dead_grave,       asciitilde ] };
-    key <AC03> { [            s,            S,          ssharp,        0x1001e9e ] };
+    key <AC03> { [            s,            S,          sacute,           Sacute ] };
     key <AC04> { [            t,            T,      dead_acute, dead_doubleacute ] };
     key <AC05> { [            d,            D,  dead_diaeresis,       asciitilde ] };
     key <AC06> { [            h,            H,      dead_caron,       asciitilde ] };
-    key <AC07> { [            n,            N,          ntilde,           Ntilde ] };
-    key <AC08> { [            e,            E,          eacute,           Eacute ] };
+    key <AC07> { [            n,            N,          nacute,           Nacute ] };
+    key <AC08> { [            e,            E,         eogonek,          Eogonek ] };
     key <AC09> { [            i,            I,          iacute,           Iacute ] };
     key <AC10> { [            o,            O,          oacute,           Oacute ] };
     key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
 
-    key <AB01> { [            z,            Z,              ae,               AE ] };
-    key <AB02> { [            x,            X, dead_circumflex,       asciitilde ] };
-    key <AB03> { [            c,            C,        ccedilla,         Ccedilla ] };
+    key <AB01> { [            z,            Z,       zabovedot,        Zabovedot ] };
+    key <AB02> { [            x,            X,          zacute,           Zacute ] };
+    key <AB03> { [            c,            C,          cacute,           Cacute ] };
     key <AB04> { [            v,            V,              oe,               OE ] };
     key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };
     key <AB06> { [            k,            K,  dead_abovering,       asciitilde ] };
@@ -797,7 +797,7 @@ xkb_symbols "colemak" {
 
     key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
-    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
+    key <SPCE> { [        space,        space,      underscore,       underscore ] };
 
     include "level3(ralt_switch)"
 };
